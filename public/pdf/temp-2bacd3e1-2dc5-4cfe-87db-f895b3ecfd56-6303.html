@@ -1,0 +1,417 @@
+
+    <style>
+      .leads-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Montserrat';
+
+      }
+  
+      .table-header th {
+        background-color:  #555;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+        color : white
+      }
+  
+      .table-row td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ccc;
+      }
+  
+      .table-row img {
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+  
+      a {
+        text-decoration: none;
+      }
+  
+      .flex {
+        display: flex;
+      }
+  
+      .justify-center {
+        justify-content: center;
+      }
+  
+      .mr-2 {
+        margin-right: 8px;
+      }
+      .heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.05; /* Adjust for visibility */
+            background-image: url('./images/logoNoBg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 60%;
+            height: 60%;
+            z-index: 0;
+            pointer-events: none; /* So it doesn't interfere with user interactions */
+          }
+          
+          .overflow-x-auto {
+            position: relative;
+            z-index: 1; /* Ensures table is above the watermark */
+          }
+          
+    </style>
+    <div class="overflow-x-auto">
+    <h2 class="heading">Plant Maintenance Report</h2>
+    <div class="watermark"></div>
+      <table class="leads-table">
+        <thead class="table-header">
+          <tr>
+            <th>No.</th>
+            <th>Project No.</th>
+            <th>Service Date</th>
+            <th>Service Status</th>
+            <th>Serviced By</th>
+            <th class="text-center">Watering</th><th class="text-center">Trimming</th><th class="text-center">Checking Pest And Disease Infection</th><th class="text-center">Fertilizer Application</th><th class="text-center">Topping Up And Soil Mix</th>
+            <th>Time In</th>
+            <th>Time Out</th>
+            <th>Sign</th>
+            <th>Signed By</th>
+            <th>Signed Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">1</td>
+            <td class="p-1 text-center border border-gray-700">02</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">completed</td>
+            <td class="p-1 text-center border border-gray-700">John, CLEAN NAME </td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">12:15</td>
+            <td class="p-1 text-center border border-gray-700">12:15</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">N/A</td>
+            <td class="p-1 text-center border border-gray-700">Invalid Date</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">2</td>
+            <td class="p-1 text-center border border-gray-700">02</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">John, CLEAN NAME </td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">12:15</td>
+            <td class="p-1 text-center border border-gray-700">12:15</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746621807670-701377382.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">nasvq</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">3</td>
+            <td class="p-1 text-center border border-gray-700">01</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">John</td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">17:33</td>
+            <td class="p-1 text-center border border-gray-700">23:40</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746621462416-548170951.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">nasvath</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">4</td>
+            <td class="p-1 text-center border border-gray-700">02</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">John, CLEAN NAME </td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">16:11</td>
+            <td class="p-1 text-center border border-gray-700">22:17</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746614635954-735410100.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">sali</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">5</td>
+            <td class="p-1 text-center border border-gray-700">01</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">John</td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">21:00</td>
+            <td class="p-1 text-center border border-gray-700">19:00</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746614365138-667333776.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">salim</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">6</td>
+            <td class="p-1 text-center border border-gray-700">01</td>
+            <td class="p-1 text-center border border-gray-700">May 9, 2025</td>
+            <td class="p-1 text-center border border-gray-700">pending</td>
+            <td class="p-1 text-center border border-gray-700">John</td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">15:52</td>
+            <td class="p-1 text-center border border-gray-700">15:59</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">N/A</td>
+            <td class="p-1 text-center border border-gray-700">Invalid Date</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">7</td>
+            <td class="p-1 text-center border border-gray-700">01</td>
+            <td class="p-1 text-center border border-gray-700">May 6, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">CLEAN NAME </td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">00:05</td>
+            <td class="p-1 text-center border border-gray-700">12:04</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746604851982-704216114.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">jobin k joseph</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">8</td>
+            <td class="p-1 text-center border border-gray-700">55</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">John</td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">12:43</td>
+            <td class="p-1 text-center border border-gray-700">12:43</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746602068434-981225478.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">salim</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">9</td>
+            <td class="p-1 text-center border border-gray-700">45</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">John</td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        No
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">12:41</td>
+            <td class="p-1 text-center border border-gray-700">12:47</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746603175110-56367618.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">tester</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr>
+        <tr class="table-row">
+            <td class="p-1 text-center border border-gray-700">10</td>
+            <td class="p-1 text-center border border-gray-700">001</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+            <td class="p-1 text-center border border-gray-700">approved</td>
+            <td class="p-1 text-center border border-gray-700">CLEAN NAME , John</td>
+            
+            
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+                    <td class="p-1 text-center border border-gray-700">
+                        Yes
+                    </td>
+            
+            <td class="p-1 text-center border border-gray-700">11:01</td>
+            <td class="p-1 text-center border border-gray-700">11:01</td>
+            <td class="p-1 text-center border border-gray-700">
+                <img src="https://appapi.desireign.com/public/images/service/image-1746603321029-816110509.jpg" alt="signature" width="130px" height="70px" class="mr-2">
+            </td>
+            <td class="p-1 text-center border border-gray-700">salimmsk</td>
+            <td class="p-1 text-center border border-gray-700">May 7, 2025</td>
+        </tr> <!-- Insert dynamic rows here -->
+        </tbody>
+      </table>
+    </div>
+  
